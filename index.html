@@ -1,70 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AW Digital Menu | Cardápio Digital</title>
-    <style>
-        body {margin:0;font-family:Arial,sans-serif;background:#f4f4f4;}
-        header {background:#111;color:#fff;padding:30px;text-align:center;}
-        .container {padding:20px;max-width:1000px;margin:auto;}
-        h2 {border-left:5px solid #d35400;padding-left:10px;}
-        .menu {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-        .item {background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.1);}
-        .item img {width:100%;height:180px;object-fit:cover;}
-        .info {padding:15px;}
-        .price {color:#d35400;font-weight:bold;}
-        footer {background:#111;color:#fff;text-align:center;padding:20px;margin-top:40px;}
-    </style>
+<meta charset="UTF-8">
+<title>Cardápio Digital</title>
+<style>
+body { font-family: Arial; text-align: center; background: #f4f4f4; }
+a { display: block; margin: 20px; padding: 15px; background: #222; color: white; text-decoration: none; border-radius: 8px; }
+</style>
 </head>
 <body>
 
-<header>
-    <h1>AW Digital Menu</h1>
-    <p>Cardápio Digital com QR Code</p>
-</header>
+<h1>🍽️ Cardápio Digital</h1>
 
-<div class="container">
-    <h2>🍽️ Pratos Principais</h2>
-    <div class="menu">
-        <div class="item">
-            <img src="https://tse3.mm.bing.net/th/id/OIP.Cwk2hW3LdAL64OJSoM8R3AHaE8">
-            <div class="info">
-                <h3>Picanha</h3>
-                <p class="price">4.500 Kz</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
-            <div class="info">
-                <h3>Peixe Frito</h3>
-                <p class="price">3.000 Kz</p>
-            </div>
-        </div>
-    </div>
+<a href="pratos.html">🍛 Pratos</a>
+<a href="bebidas.html">🍹 Bebidas</a>
+<a href="sobremesas.html">🍰 Sobremesas</a>
 
-    <h2>🥤 Bebidas</h2>
-    <div class="menu">
-        <div class="item">
-            <img src="https://www.pexels.com/pt-br/foto/29290422/">
-            <div class="info">
-                <h3>Fino</h3>
-                <p class="price">700 Kz</p>
-            </div>
-        </div>
-        
-    <div class="item">
-        <img src="https://www.pexels.com/pt-br/foto/frio-com-frio-bebida-drink-5817633/">
-            <div class="info">
-                <h3>Sumo</h3>
-                <p class="price">1200 Kz</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Pratos</title>
+<style>
+body { font-family: Arial; background: #fff; text-align: center; }
+.card { margin: 20px; }
+img { width: 90%; max-width: 300px; border-radius: 10px; }
+preco { font-weight: bold; color: green; }
+</style>
+</head>
+<body>
+
+<h2>🍛 Pratos</h2>
+
+<div class="card">
+  <img src="imagens/pratos/frango.jpg">
+  <p>Frango Grelhado</p>
+  <preco>3.500 Kz</preco>
 </div>
-        </div>
-        
-<footer>
-    <p>AW Digital Menu © 2026</p>
-    <p>Contacto: +244 926137164 / 947802242</p>
-</footer>
+
+<div class="card">
+  <img src="imagens/pratos/peixe.jpg">
+  <p>Peixe Frito</p>
+  <preco>4.000 Kz</preco>
+</div>
+
+<a href="index.html">⬅ Voltar</a>
 
 </body>
 </html>
